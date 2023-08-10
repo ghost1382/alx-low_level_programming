@@ -1,6 +1,11 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-void *malloc_checked(unsigned int b);
+/* Other necessary includes */
+
+void *_calloc(unsigned int nmemb, unsigned int size);
+
+/* Other function prototypes or declarations */
 
 #endif /* MAIN_H */
+
